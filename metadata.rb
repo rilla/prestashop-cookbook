@@ -8,7 +8,7 @@ version          '0.4.2'
 
 depends "apache2"
 depends "database"
-depends "mysql", "= 5.5.3"
+depends "mysql", "= 5.6.3"
 
 %w{debian ubuntu}.each do |os|
   supports os
